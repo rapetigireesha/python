@@ -1,0 +1,12 @@
+sno=int(input ())
+sname=str(input ())
+g=str(input ())
+e=int(input ())
+mt=int(input ())
+s=int(input ())
+if e>35:
+   if mt>35:
+       if s>35:
+          print ('pass')
+else:
+     print ('fail')
