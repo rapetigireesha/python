@@ -1,0 +1,23 @@
+bb=49000
+print('enter no')
+emp=int(input())
+print('enter name')
+empname='latha'
+print('enter desig')
+empdesig=str(input())
+da=int(input())
+ta=int(input())
+hra=int(input())
+print('prosess')
+netsal=bb+da+ta+hra
+if netsal>=100000:
+    tax=netsal*10/100
+    print(tax)
+if netsal>=50000:
+    tax=netsal*7/100
+    print(tax)
+if netsal>=40000:
+    tax=netsal*4/100
+    print(tax)
+if netsal<20000:
+    print('no tax')
