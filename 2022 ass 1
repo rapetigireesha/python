@@ -1,0 +1,32 @@
+#preparing supermarket bill
+dal=50
+oil=180
+wf=100
+gn=100
+rice=100
+cphno=input('enter customer phone number:')
+name=input('enter customer name:')#kanha
+caddr=input('enter customer address:')#cdm
+dalq=int(input('how much quantity of dal you want!'))#200gm
+oilq=int(input('how many packets of oil you want!'))#1
+wfq=int(input('how much wheat flour you want!'))#500gm
+gnq=int(input('how much quantity of groundnuts do you want!')#200gm
+riceq=int(input('how much quantity of rice you want!'))#1kg
+bill=(dal*dalq)+(oil*oilq)+(wf*wfq)+(gn*gnq)+(rice*riceq)
+coupon=input('enter the coupon code in capital letters')
+if bill>3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+print('customer name:',cname)
+print('customer phone number:',cphno)
+print('bill without tax:',bill)
+print('tax:',tax)
+bill=bill+tax
+print('bill amount:',bil
